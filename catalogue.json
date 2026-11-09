@@ -1,27 +1,223 @@
 {
- "artist":"Cinek","updated":"2026-11-08","officialHub":"https://linktr.ee/noahcinek",
- "socials":[{"name":"TikTok","url":"https://www.tiktok.com/@noahcinek"},{"name":"Instagram","url":"https://www.instagram.com/noahcinek/"},{"name":"YouTube","url":"https://www.youtube.com/channel/UCqlNzXDslcvtG1bIpXcmHLw"},{"name":"Apple Music","url":"https://music.apple.com/us/artist/cinek/1864799875"},{"name":"Amazon Music","url":"https://music.amazon.com/artists/B01IUPVQRW/cinek"},{"name":"Facebook (owner-provided)","url":"https://www.facebook.com/share/19MxkvPJby/","verification":"canonical profile pending"}],
- "releases":[
- {"title":"Our Song (Live Version)","date":"2026-11-06","platform":"Apple Music","url":"https://music.apple.com/us/album/our-song-live-version-single/6830257166","type":"single","featured":true},
- {"title":"Our Song","date":"2026-10-30","platform":"Apple Music","url":"https://music.apple.com/us/album/our-song-single/6825479450","type":"single","featured":true},
- {"title":"EMPTY BED","subtitle":"FRÖKEN SNUSK × Rasmus Gozzi × Cinek","date":"2026-10-09","platform":"Apple Music","url":"https://music.apple.com/us/album/empty-bed-single/6817671575","type":"collaboration","featured":true},
- {"title":"Remedy","date":"2026-10-02","platform":"Apple Music","url":"https://music.apple.com/us/album/remedy-single/6815994220","type":"single","featured":true},
- {"title":"Floating","subtitle":"Genom Världar — English Version","date":"2026-09-11","platform":"Qobuz","url":"https://www.qobuz.com/gb-en/album/floating-cinek/et6gru9oymm80","type":"single"},
- {"title":"Andetag","date":"2026-08-21","platform":"Apple Music","url":"https://music.apple.com/us/album/andetag/6798045589?i=6798045590","type":"single"},
- {"title":"Fri","date":"2026-07-31","platform":"Apple Music","url":"https://music.apple.com/us/album/fri/6794973010?i=6794973011","type":"single"},
- {"title":"Bali","date":"2026-07-10","platform":"Apple Music","url":"https://music.apple.com/us/album/bali/6785497787?i=6785497788","type":"single"},
- {"title":"Genom Världar (Akustisk Version)","date":"2026-07-03","platform":"Apple Music","url":"https://music.apple.com/us/album/genom-v%C3%A4rldar-akustisk-version/6786540715?i=6786540716","type":"single"},
- {"title":"Framför Mig","date":"2026-06-19","platform":"Apple Music","url":"https://music.apple.com/us/album/framf%C3%B6r-mig/6779559958?i=6779559959","type":"single"},
- {"title":"Genom Världar","date":"2026-06-05","platform":"Qobuz","url":"https://www.qobuz.com/gb-en/album/genom-varldar-cinek/e4sgpzsmw3d5y","type":"single"},
- {"title":"Tills Jag Somnar","date":"2026-05-01","platform":"Apple Music","url":"https://music.apple.com/us/album/tills-jag-somnar/1895469733?i=6763742964","type":"single"},
- {"title":"Dubai","date":"2026-04-17","platform":"Apple Music","url":"https://music.apple.com/us/album/dubai/1890871857?i=1890871858","type":"single"},
- {"title":"Verklighet","date":"2026-04-03","platform":"Apple Music","url":"https://music.apple.com/us/album/verklighet/1887963074?i=1887963075","type":"single"},
- {"title":"Vandrat","date":"2026-03-27","platform":"Qobuz","url":"https://www.qobuz.com/gb-en/album/vandrat-cinek/pnaqc5kkug5tj","type":"single"},
- {"title":"Hela Dig","date":"2026-02-13","platform":"Apple Music","url":"https://music.apple.com/us/album/hela-dig/1874218333?i=1874218336","type":"single"},
- {"title":"Går Sönder","date":"2026-01-23","platform":"Apple Music","url":"https://music.apple.com/us/album/g%C3%A5r-s%C3%B6nder-single/1871380890","type":"single"},
- {"title":"Dalai Lama","date":"2026-01-09","platform":"Apple Music","url":"https://music.apple.com/us/album/dalai-lama/1886412802?i=1886412804","type":"single"},
- {"title":"Minut","date":"2026-01-02","platform":"Qobuz","url":"https://www.qobuz.com/gb-en/album/minut-cinek/hop0wjklqmzqi","type":"single"}
- ],
- "videos":[{"title":"Our Song","subtitle":"Official Lyric Video","date":"2026-10-29","url":"https://www.youtube.com/watch?v=Vn_YildjGLw","youtubeId":"Vn_YildjGLw","verification":"artist channel"},{"title":"Remedy","subtitle":"Official Lyric Video","date":"2026-10-01","url":"https://www.youtube.com/watch?v=0b5FTsHPU8Q","youtubeId":"0b5FTsHPU8Q","verification":"artist channel"},{"title":"EMPTY BED","subtitle":"FRÖKEN SNUSK × Rasmus Gozzi × Cinek — Music Video","date":"2026-10-08","url":"https://www.youtube.com/watch?v=8lT_Ab_7u4Y","youtubeId":"8lT_Ab_7u4Y","verification":"collaborator channel"}],
- "token":{"status":"not-announced","address":null,"note":"No official CINEK token or artist endorsement is asserted. Any community token must be clearly identified and rights-cleared."}
+  "artist": "Cinek",
+  "updated": "2026-11-09",
+  "officialHub": "https://linktr.ee/noahcinek",
+  "socials": [
+    {
+      "name": "X · @CINEKonSol (community / project)",
+      "url": "https://x.com/CINEKonSol",
+      "role": "project",
+      "note": "Unofficial fan project account — not the artist"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@noahcinek"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/noahcinek/"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UCqlNzXDslcvtG1bIpXcmHLw"
+    },
+    {
+      "name": "Apple Music",
+      "url": "https://music.apple.com/us/artist/cinek/1864799875"
+    },
+    {
+      "name": "Amazon Music",
+      "url": "https://music.amazon.com/artists/B01IUPVQRW/cinek"
+    },
+    {
+      "name": "Facebook (owner-provided)",
+      "url": "https://www.facebook.com/share/19MxkvPJby/",
+      "verification": "canonical profile pending"
+    }
+  ],
+  "releases": [
+    {
+      "title": "Our Song (Live Version)",
+      "date": "2026-11-06",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/our-song-live-version-single/6830257166",
+      "type": "single",
+      "featured": true
+    },
+    {
+      "title": "Our Song",
+      "date": "2026-10-30",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/our-song-single/6825479450",
+      "type": "single",
+      "featured": true
+    },
+    {
+      "title": "EMPTY BED",
+      "subtitle": "FRÖKEN SNUSK × Rasmus Gozzi × Cinek",
+      "date": "2026-10-09",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/empty-bed-single/6817671575",
+      "type": "collaboration",
+      "featured": true
+    },
+    {
+      "title": "Remedy",
+      "date": "2026-10-02",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/remedy-single/6815994220",
+      "type": "single",
+      "featured": true
+    },
+    {
+      "title": "Floating",
+      "subtitle": "Genom Världar — English Version",
+      "date": "2026-09-11",
+      "platform": "Qobuz",
+      "url": "https://www.qobuz.com/gb-en/album/floating-cinek/et6gru9oymm80",
+      "type": "single"
+    },
+    {
+      "title": "Andetag",
+      "date": "2026-08-21",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/andetag/6798045589?i=6798045590",
+      "type": "single"
+    },
+    {
+      "title": "Fri",
+      "date": "2026-07-31",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/fri/6794973010?i=6794973011",
+      "type": "single"
+    },
+    {
+      "title": "Bali",
+      "date": "2026-07-10",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/bali/6785497787?i=6785497788",
+      "type": "single"
+    },
+    {
+      "title": "Genom Världar (Akustisk Version)",
+      "date": "2026-07-03",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/genom-v%C3%A4rldar-akustisk-version/6786540715?i=6786540716",
+      "type": "single"
+    },
+    {
+      "title": "Framför Mig",
+      "date": "2026-06-19",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/framf%C3%B6r-mig/6779559958?i=6779559959",
+      "type": "single"
+    },
+    {
+      "title": "Genom Världar",
+      "date": "2026-06-05",
+      "platform": "Qobuz",
+      "url": "https://www.qobuz.com/gb-en/album/genom-varldar-cinek/e4sgpzsmw3d5y",
+      "type": "single"
+    },
+    {
+      "title": "Tills Jag Somnar",
+      "date": "2026-05-01",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/tills-jag-somnar/1895469733?i=6763742964",
+      "type": "single"
+    },
+    {
+      "title": "Dubai",
+      "date": "2026-04-17",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/dubai/1890871857?i=1890871858",
+      "type": "single"
+    },
+    {
+      "title": "Verklighet",
+      "date": "2026-04-03",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/verklighet/1887963074?i=1887963075",
+      "type": "single"
+    },
+    {
+      "title": "Vandrat",
+      "date": "2026-03-27",
+      "platform": "Qobuz",
+      "url": "https://www.qobuz.com/gb-en/album/vandrat-cinek/pnaqc5kkug5tj",
+      "type": "single"
+    },
+    {
+      "title": "Hela Dig",
+      "date": "2026-02-13",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/hela-dig/1874218333?i=1874218336",
+      "type": "single"
+    },
+    {
+      "title": "Går Sönder",
+      "date": "2026-01-23",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/g%C3%A5r-s%C3%B6nder-single/1871380890",
+      "type": "single"
+    },
+    {
+      "title": "Dalai Lama",
+      "date": "2026-01-09",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/album/dalai-lama/1886412802?i=1886412804",
+      "type": "single"
+    },
+    {
+      "title": "Minut",
+      "date": "2026-01-02",
+      "platform": "Qobuz",
+      "url": "https://www.qobuz.com/gb-en/album/minut-cinek/hop0wjklqmzqi",
+      "type": "single"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Our Song",
+      "subtitle": "Official Lyric Video",
+      "date": "2026-10-29",
+      "url": "https://www.youtube.com/watch?v=Vn_YildjGLw",
+      "youtubeId": "Vn_YildjGLw",
+      "verification": "artist channel",
+      "poster": "/assets/posters/our-song.webp"
+    },
+    {
+      "title": "Remedy",
+      "subtitle": "Official Lyric Video",
+      "date": "2026-10-01",
+      "url": "https://www.youtube.com/watch?v=0b5FTsHPU8Q",
+      "youtubeId": "0b5FTsHPU8Q",
+      "verification": "artist channel",
+      "poster": "/assets/posters/remedy.webp"
+    },
+    {
+      "title": "EMPTY BED",
+      "subtitle": "FRÖKEN SNUSK × Rasmus Gozzi × Cinek — Music Video",
+      "date": "2026-10-08",
+      "url": "https://www.youtube.com/watch?v=8lT_Ab_7u4Y",
+      "youtubeId": "8lT_Ab_7u4Y",
+      "verification": "collaborator channel",
+      "poster": "/assets/posters/empty-bed.webp"
+    }
+  ],
+  "token": {
+    "status": "coming-soon",
+    "ticker": "$CINEK",
+    "address": null,
+    "buyUrl": null,
+    "headline": "$CINEK — coming soon",
+    "note": "Community token planned for this unofficial fan project. No contract address yet. Not affiliated with or endorsed by the artist (yet). We'd love Cinek's blessing."
+  },
+  "project": {
+    "name": "CINEK Universe (unofficial fan project)",
+    "x": "https://x.com/CINEKonSol",
+    "xHandle": "@CINEKonSol",
+    "site": "https://cinek.onrender.com/",
+    "disclaimer": "Unofficial fan project — not affiliated with or endorsed by Cinek (yet). We'd love the artist's blessing."
+  }
 }

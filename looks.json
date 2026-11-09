@@ -1,5 +1,6 @@
 {
-  "status": "curated references and editorial crops, not official canonical looks",
+  "status": "curated references and editorial crops from existing site media — not official canonical looks",
+  "disclaimer": "Unofficial fan project — not affiliated with or endorsed by Cinek (yet). Visuals are reference material for community exploration.",
   "looks": [
     {
       "title": "THE EYES",
@@ -16,24 +17,80 @@
       "preset": "portrait"
     },
     {
-      "title": "EMPTY BED \u2014 STILL",
-      "image": "/assets/empty-bed-video-still.webp",
-      "source": "Frame from user-supplied EMPTY BED video",
-      "description": "A reference from the actual video, not a generated portrait.",
+      "title": "EMPTY BED — PORTRAIT",
+      "image": "/assets/empty_bed_masked_singer_portrait.jpg",
+      "source": "Still from EMPTY BED music video",
+      "description": "Masked performer portrait from the collaboration video.",
+      "preset": "performance"
+    },
+    {
+      "title": "EMPTY BED — MIC",
+      "image": "/assets/empty_bed_masked_mic_closeup.jpg",
+      "source": "Still from EMPTY BED music video",
+      "description": "Close mic moment; hooded silhouette and stage light.",
+      "preset": "performance"
+    },
+    {
+      "title": "EMPTY BED — QUIET",
+      "image": "/assets/empty_bed_quiet_masked_portrait.jpg",
+      "source": "Still from EMPTY BED music video",
+      "description": "Quieter masked portrait with soft contrast.",
       "preset": "portrait"
     },
     {
-      "title": "CINEMATIC STUDY",
-      "image": "/assets/videos-cinek.webp",
-      "source": "Site visual derived from provided video references",
-      "description": "An atmospheric editorial crop; not a separate official costume.",
+      "title": "EMPTY BED — GUITAR",
+      "image": "/assets/empty_bed_guitar_playing.jpg",
+      "source": "Still from EMPTY BED music video",
+      "description": "Performance still with guitar; stage atmosphere.",
+      "preset": "performance"
+    },
+    {
+      "title": "REMEDY — EYES",
+      "image": "/assets/remedy_masked_eyes.jpg",
+      "source": "Still from Remedy performance visuals",
+      "description": "Masked eye focus from live performance imagery.",
+      "preset": "portrait"
+    },
+    {
+      "title": "REMEDY — STAGE",
+      "image": "/assets/remedy_front_performance.jpg",
+      "source": "Still from Remedy performance visuals",
+      "description": "Front-of-stage performance energy.",
+      "preset": "performance"
+    },
+    {
+      "title": "REMEDY — CROWD",
+      "image": "/assets/remedy_singing_to_crowd.jpg",
+      "source": "Still from Remedy performance visuals",
+      "description": "Singing out to the crowd under stage light.",
+      "preset": "performance"
+    },
+    {
+      "title": "REMEDY — SIDE STAGE",
+      "image": "/assets/remedy_concert_side_stage.jpg",
+      "source": "Still from Remedy performance visuals",
+      "description": "Side-stage concert frame.",
+      "preset": "performance"
+    },
+    {
+      "title": "WIDE EYES",
+      "image": "/assets/cinek-eyes-wide.webp",
+      "source": "Site visual derived from provided references",
+      "description": "Wide cinematic eye crop used across the archive.",
+      "preset": "portrait"
+    },
+    {
+      "title": "SCENE WIDE",
+      "image": "/assets/cinek-scene-wide.webp",
+      "source": "Site visual derived from provided references",
+      "description": "Wide atmospheric scene study.",
       "preset": "rooftop"
     },
     {
-      "title": "THE ARTIST",
-      "image": "/assets/artist-cinek.webp",
+      "title": "PORTRAIT VERTICAL",
+      "image": "/assets/cinek-portrait-vertical.webp",
       "source": "Site visual derived from provided references",
-      "description": "Portrait-style composition for exploring the character identity.",
+      "description": "Vertical portrait framing for character studies.",
       "preset": "portrait"
     },
     {

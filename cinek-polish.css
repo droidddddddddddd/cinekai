@@ -1,0 +1,29 @@
+/* Site polish: token placeholder, project X, disclaimers */
+.project-x-note{margin-top:18px;font-size:13px;color:#cfc4ce;letter-spacing:.02em}
+.project-x-note a{color:#ff9dcc;border-bottom:1px solid #f15ba580;padding-bottom:2px}
+.socials a[data-role="project"]{border-color:#f15ba5;color:#ffd0e7}
+
+.token-section{padding:clamp(70px,9vw,130px) clamp(22px,7vw,110px);background:
+  radial-gradient(circle at 20% 10%,#5a123355,transparent 40%),
+  linear-gradient(180deg,#0b090e 0%,#120c14 100%)}
+.token-card{max-width:920px;margin:0 auto;border:1px solid #ffffff18;background:#100d1499;backdrop-filter:blur(10px);padding:clamp(28px,4vw,48px);border-radius:22px}
+.token-card h2{font-size:clamp(40px,7vw,84px);letter-spacing:-.06em;line-height:.98;margin:12px 0 18px}
+.token-card h2 em{font-style:normal;color:#f15ba5}
+.token-lead{font-size:clamp(15px,1.5vw,18px);line-height:1.7;color:#e6dbe4;max-width:680px}
+.token-meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0 22px}
+.token-meta div{border:1px solid #ffffff14;border-radius:14px;padding:14px 16px;background:#0a080ccc}
+.token-meta span{display:block;font-size:10px;letter-spacing:.14em;color:#aaa;margin-bottom:8px}
+.token-meta strong{font-size:15px;color:#fff}
+.token-disclaimer{font-size:13px;line-height:1.65;color:#cbbfd0;margin:0 0 22px;max-width:720px}
+.community-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0 14px}
+
+.site-footer .footer-social-link[title*="CINEKonSol"] span,
+.site-footer .footer-social-link[aria-label*="CINEKonSol"] span{color:#ff9dcc}
+
+@media(max-width:700px){
+  .token-meta{grid-template-columns:1fr}
+  .community-actions{justify-content:flex-start}
+}
+
+.hero-fan-note{display:block;margin-top:10px;font-size:12px;letter-spacing:.04em;color:#ffc3df;opacity:.95}
+.look-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
