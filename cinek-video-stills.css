@@ -1,32 +1,28 @@
-/* CINEK real music-video stills — load last. Keeps the homepage hero untouched. */
+/* Video-derived section stills. Prefer native-resolution frames; do not upscale.
+   Loaded BEFORE cinek-image-refresh.css so the sharper 2400px scene plates can override. */
 .world-photo {
   background-image: url('/assets/remedy_crowd_back_view.jpg');
-  background-position: center 45%;
+  background-position: 54% center;
   background-size: cover;
-  transform: none;
 }
 .film-bg {
   background-image: url('/assets/empty_bed_guitar_and_pink_stage.jpg');
-  background-position: center 42%;
+  background-position: 54% center;
   background-size: cover;
   background-attachment: scroll;
-  transform: none;
 }
 .artist-photo {
   background-image: url('/assets/remedy_masked_face_closeup.jpg');
-  background-position: 68% center;
+  background-position: 62% center;
   background-size: cover;
-  transform: none;
 }
 .outro-photo {
   background-image: url('/assets/remedy_front_performance.jpg');
-  background-position: center 38%;
+  background-position: 50% center;
   background-size: cover;
-  transform: none;
 }
-/* Only secondary visuals; never modify .intro-image / main hero. */
 .world-photo,.film-bg,.artist-photo,.outro-photo {image-rendering:auto;}
-@media(max-width:700px) {
+@media (max-width: 900px) {
   .world-photo {background-position:54% center;}
   .film-bg {background-position:54% center;}
   .artist-photo {background-position:62% center;}

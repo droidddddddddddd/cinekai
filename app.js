@@ -39,7 +39,7 @@ fetch('/catalogue.json').then(r=>{
     videoGrid.innerHTML=data.videos.map(v=>{
       const poster=v.poster||posterFallback[v.youtubeId]||`/assets/posters/empty-bed.webp`;
       return `<a class="video-card" href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">
-        <div class="video-poster"><img loading="lazy" decoding="async" src="${esc(poster)}" alt="Video thumbnail for ${esc(v.title)}"><span class="play">▶</span></div>
+        <div class="video-poster"><img loading="eager" decoding="async" src="${esc(poster)}" alt="Video thumbnail for ${esc(v.title)}"><span class="play">▶</span></div>
         <h3>${esc(v.title)}</h3>
         <p>${esc(v.subtitle)} · ${date(v.date)}</p>
       </a>`;

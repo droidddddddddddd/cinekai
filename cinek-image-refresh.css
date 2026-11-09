@@ -1,16 +1,14 @@
-/* CINEK image refresh: load after cinek-upgrade.css. Original homepage hero remains unchanged. */
+/* High-resolution section plates (2400 / 1200+). Must load after cinek-video-stills.css. */
 .world-photo {background-image:url('/assets/cinek-scene-wide.webp');background-position:center center;background-size:cover;transform:none}
 .film-bg {background-image:url('/assets/cinek-scene-wide.webp');background-position:center center;background-size:cover;background-attachment:scroll;transform:none}
 .artist-photo {background-image:url('/assets/cinek-portrait-vertical.webp');background-position:70% 40%;background-size:cover;transform:none}
 .outro-photo {background-image:url('/assets/cinek-eyes-wide.webp');background-position:center center;background-size:cover;transform:none}
-/* Keep images crisp and avoid oversized transforms */
-.video-poster img,.release-visual img,.create-reference img{image-rendering:auto;transform:none}
-@media(max-width:700px){
+.release-visual img{image-rendering:auto}
+@media (max-width:900px){
  .world-photo,.film-bg{background-position:40% center}
  .artist-photo{background-position:62% center}
  .outro-photo{background-position:center center}
- .world-shade,.artist-gradient{background-color:rgba(0,0,0,.2)}
 }
-@media(min-width:1500px){
+@media (max-width:560px){
  .artist-photo{background-size:auto 100%;background-repeat:no-repeat;background-color:#070709;background-position:right center}
 }

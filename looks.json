@@ -45,6 +45,20 @@
       "preset": "performance"
     },
     {
+      "title": "EMPTY BED — STAGE",
+      "image": "/assets/empty_bed_guitar_and_pink_stage.jpg",
+      "source": "Still from EMPTY BED music video",
+      "description": "Pink stage lighting and guitar performance frame.",
+      "preset": "performance"
+    },
+    {
+      "title": "EMPTY BED — STILL",
+      "image": "/assets/empty-bed-video-still.webp",
+      "source": "Sharper square still rebuilt from EMPTY BED poster",
+      "description": "Masked eye-forward still for character reference.",
+      "preset": "portrait"
+    },
+    {
       "title": "REMEDY — EYES",
       "image": "/assets/remedy_masked_eyes.jpg",
       "source": "Still from Remedy performance visuals",
@@ -94,11 +108,11 @@
       "preset": "portrait"
     },
     {
-      "title": "NIGHT ATMOSPHERE",
-      "image": "/assets/hero-cinek.webp",
+      "title": "EYE DETAIL",
+      "image": "/assets/cinek-eye-detail.webp",
       "source": "Site visual derived from provided references",
-      "description": "Mood reference for night scenes and lighting.",
-      "preset": "rooftop"
+      "description": "Closer eye-detail study.",
+      "preset": "portrait"
     }
   ]
 }

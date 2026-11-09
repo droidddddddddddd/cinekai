@@ -5,7 +5,10 @@
   const dlg=document.querySelector('#lightbox');
   function show(src,caption){
     if(!dlg) return;
-    document.querySelector('#lightboxImage').src=src;
+    const img=document.querySelector('#lightboxImage');
+    img.removeAttribute('srcset');
+    img.loading='eager';
+    img.src=src;
     document.querySelector('#lightboxCaption').textContent=caption;
     dlg.showModal();
   }
@@ -14,19 +17,68 @@
 
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-  // Looks page: hydrate from looks.json when #lookGrid exists
+  function bindLookTiles(root){
+    (root||document).querySelectorAll('.look-tile').forEach(b=>{
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',()=>show(b.dataset.image,b.dataset.caption));
+    });
+  }
+
+  function forceImageVisible(img){
+    // Prevent below-the-fold tiles from staying blank (lazy never firing / screenshot gaps)
+    img.loading='eager';
+    img.decoding='async';
+    img.style.opacity='1';
+    img.style.visibility='visible';
+    if(!img.complete || img.naturalWidth===0){
+      const src=img.currentSrc||img.src;
+      if(src) img.src=src;
+    }
+  }
+
   const lookGrid=document.querySelector('#lookGrid');
   if(lookGrid){
-    fetch('/looks.json').then(r=>r.json()).then(data=>{
-      lookGrid.innerHTML=(data.looks||[]).map(look=>`
-        <button class="look-tile" data-image="${esc(look.image)}" data-caption="${esc(look.source)}" type="button">
-          <img loading="lazy" decoding="async" src="${esc(look.image)}" alt="${esc(look.title)}: ${esc(look.source)}">
-          <span><strong>${esc(look.title)}</strong><small>${esc(look.source)}</small></span>
-        </button>`).join('');
-      lookGrid.querySelectorAll('.look-tile').forEach(b=>b.addEventListener('click',()=>show(b.dataset.image,b.dataset.caption)));
-    }).catch(()=>{ lookGrid.textContent='Looks catalogue unavailable.'; });
+    const hasStatic=lookGrid.querySelectorAll('.look-tile').length>0;
+    const render=(data)=>{
+      if(!hasStatic){
+        lookGrid.innerHTML=(data.looks||[]).map(look=>{
+          return `<button class="look-tile" data-image="${esc(look.image)}" data-caption="${esc(look.source)}" type="button">
+            <img src="${esc(look.image)}" alt="${esc(look.title)}: ${esc(look.source)}" width="900" height="1200" decoding="async">
+            <span><strong>${esc(look.title)}</strong><small>${esc(look.source)}</small></span>
+          </button>`;
+        }).join('');
+      } else {
+        // Keep static markup; optionally refresh captions/images from JSON if counts match
+        const tiles=[...lookGrid.querySelectorAll('.look-tile')];
+        (data.looks||[]).forEach((look,i)=>{
+          const b=tiles[i]; if(!b) return;
+          b.dataset.image=look.image;
+          b.dataset.caption=look.source;
+          const img=b.querySelector('img');
+          if(img && img.getAttribute('src')!==look.image){
+            img.src=look.image;
+            
+          }
+        });
+      }
+      lookGrid.querySelectorAll('img').forEach(forceImageVisible);
+      bindLookTiles(lookGrid);
+    };
+
+    // Eager-bind whatever is already in the DOM (static HTML path)
+    lookGrid.querySelectorAll('img').forEach(forceImageVisible);
+    bindLookTiles(lookGrid);
+
+    fetch('/looks.json').then(r=>r.json()).then(render).catch(err=>{
+      console.error(err);
+      if(!hasStatic) lookGrid.textContent='Looks catalogue unavailable.';
+      lookGrid.querySelectorAll('img').forEach(forceImageVisible);
+      bindLookTiles(lookGrid);
+    });
   } else {
-    document.querySelectorAll('.look-tile').forEach(b=>b.addEventListener('click',()=>show(b.dataset.image,b.dataset.caption)));
+    document.querySelectorAll('.look-tile img').forEach(forceImageVisible);
+    bindLookTiles(document);
   }
 
   // Film detail page
@@ -46,7 +98,7 @@
       const gallerySets={
         'empty-bed':[
           ['/assets/posters/empty-bed.webp','Local poster from EMPTY BED'],
-          ['/assets/empty-bed-video-still.webp','Frame from EMPTY BED video'],
+          ['/assets/empty-bed-video-still.webp','Sharper EMPTY BED still'],
           ['/assets/empty_bed_masked_singer_portrait.jpg','EMPTY BED masked portrait'],
           ['/assets/empty_bed_masked_mic_closeup.jpg','EMPTY BED mic closeup'],
           ['/assets/empty_bed_guitar_playing.jpg','EMPTY BED guitar performance'],
@@ -68,7 +120,7 @@
       const g=document.querySelector('#filmGallery');
       imgs.forEach(([src,caption])=>{
         const b=document.createElement('button'); b.type='button';
-        const i=document.createElement('img'); i.src=src; i.alt=caption; i.loading='lazy'; i.decoding='async';
+        const i=document.createElement('img'); i.src=src; i.alt=caption; i.loading='eager'; i.decoding='async';
         const s=document.createElement('small'); s.textContent=caption;
         b.append(i,s);
         b.addEventListener('click',()=>show(src,caption));
