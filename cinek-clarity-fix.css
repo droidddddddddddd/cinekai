@@ -1,0 +1,44 @@
+/* CINEK clarity and hero framing patch. Load LAST in index.html. */
+/* Preserve the original hero artwork; show the complete face on narrow displays. */
+.intro {background:#08070a;}
+.intro-image {
+  background-image:url('/assets/reference-5649.webp');
+  background-repeat:no-repeat;
+  background-position:center 35%;
+  background-size:contain;
+  transform:none!important;
+  animation:none!important;
+}
+/* For wide screens, use cover only when there is enough room; shift framing down to reveal the eyes. */
+@media (min-width: 901px) and (min-aspect-ratio: 13/9) {
+  .intro-image {background-size:cover;background-position:center 28%;}
+}
+/* On phone screens, don't crop the eyes to fill the viewport. */
+@media (max-width:900px) {
+  .intro-image {background-size:100% auto;background-position:center 25%;}
+  .intro-vignette {background:linear-gradient(180deg,transparent 0%,#08070a00 35%,#08070a55 65%,#08070a 100%);}
+}
+/* Video frames are only 1280x720. Avoid upscaling them into blurry full-viewport backdrops. */
+.world,.film-section,.artist-story,.outro {background:#08080b;}
+.world-photo,.film-bg,.artist-photo,.outro-photo {
+  background-repeat:no-repeat;
+  background-size:contain!important;
+  background-position:center center;
+  transform:none!important;
+  image-rendering:auto;
+}
+/* Frame the video stills against cinematic gradients instead of stretching. */
+.world {background:radial-gradient(ellipse at 65% 48%,#431b39 0%,#08080b 70%);}
+.film-section {background:radial-gradient(ellipse at 50% 40%,#3b1630 0%,#08080b 72%);}
+.artist-story {background:radial-gradient(ellipse at 70% 48%,#251d3b 0%,#08080b 70%);}
+.outro {background:radial-gradient(ellipse at 50% 50%,#371629 0%,#08080b 75%);}
+/* On mobile, use a dedicated cinematic image window rather than a tiny centered full-screen photo. */
+@media(max-width:700px) {
+  .world-photo,.film-bg,.artist-photo,.outro-photo {
+    inset:14% 0 16%;
+    background-size:100% auto!important;
+    background-position:center center;
+    opacity:.75;
+  }
+  .world-shade,.film-overlay,.artist-gradient,.outro-shade {pointer-events:none;}
+}
