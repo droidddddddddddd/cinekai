@@ -1,0 +1,38 @@
+{
+  "status": "independent curated archive",
+  "films": [
+    {
+      "slug": "empty-bed",
+      "title": "EMPTY BED",
+      "subtitle": "Music video \u00b7 collaborator channel",
+      "date": "2026-10-08",
+      "youtubeId": "8lT_Ab_7u4Y",
+      "url": "https://www.youtube.com/watch?v=8lT_Ab_7u4Y",
+      "still": "/assets/empty-bed-video-still.webp",
+      "description": "The supplied music video provides the masked-performer reference used throughout this independent archive.",
+      "look": "Black fabric face covering, dramatic eye closeups, moody performance imagery."
+    },
+    {
+      "slug": "our-song",
+      "title": "OUR SONG",
+      "subtitle": "Official lyric video \u00b7 artist channel",
+      "date": "2026-10-29",
+      "youtubeId": "Vn_YildjGLw",
+      "url": "https://www.youtube.com/watch?v=Vn_YildjGLw",
+      "still": null,
+      "description": "Official lyric video. Its original channel is the authoritative source for the visuals.",
+      "look": "A lyric video; no unverified character scenes are attributed to this release."
+    },
+    {
+      "slug": "remedy",
+      "title": "REMEDY",
+      "subtitle": "Official lyric video \u00b7 artist channel",
+      "date": "2026-10-01",
+      "youtubeId": "0b5FTsHPU8Q",
+      "url": "https://www.youtube.com/watch?v=0b5FTsHPU8Q",
+      "still": null,
+      "description": "Official lyric video. Open the source to view its actual visual language.",
+      "look": "A lyric video; no unverified character scenes are attributed to this release."
+    }
+  ]
+}

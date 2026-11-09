@@ -1,0 +1,47 @@
+{
+  "status": "curated references and editorial crops, not official canonical looks",
+  "looks": [
+    {
+      "title": "THE EYES",
+      "image": "/assets/reference-5649.webp",
+      "source": "User-supplied masked-eye reference",
+      "description": "Visible eye region and black fabric face covering; close crop.",
+      "preset": "portrait"
+    },
+    {
+      "title": "MASK / SHADOW",
+      "image": "/assets/reference-5650.webp",
+      "source": "User-supplied masked-eye reference",
+      "description": "Dark fabric framing the eyes; dramatic close-up.",
+      "preset": "portrait"
+    },
+    {
+      "title": "EMPTY BED \u2014 STILL",
+      "image": "/assets/empty-bed-video-still.webp",
+      "source": "Frame from user-supplied EMPTY BED video",
+      "description": "A reference from the actual video, not a generated portrait.",
+      "preset": "portrait"
+    },
+    {
+      "title": "CINEMATIC STUDY",
+      "image": "/assets/videos-cinek.webp",
+      "source": "Site visual derived from provided video references",
+      "description": "An atmospheric editorial crop; not a separate official costume.",
+      "preset": "rooftop"
+    },
+    {
+      "title": "THE ARTIST",
+      "image": "/assets/artist-cinek.webp",
+      "source": "Site visual derived from provided references",
+      "description": "Portrait-style composition for exploring the character identity.",
+      "preset": "portrait"
+    },
+    {
+      "title": "NIGHT ATMOSPHERE",
+      "image": "/assets/hero-cinek.webp",
+      "source": "Site visual derived from provided references",
+      "description": "Mood reference for night scenes and lighting.",
+      "preset": "rooftop"
+    }
+  ]
+}

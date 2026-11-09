@@ -1,0 +1,7 @@
+# CINEK
+Independent artist catalogue and unofficial fan prompt studio.
+Official artist hub: https://linktr.ee/noahcinek
+Catalogue: /catalogue.json
+Fan-made character prompts: /prompts.json
+API index: /api/index.json
+No official character license, token endorsement, image generation endpoint, or MCP server is asserted.

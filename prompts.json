@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "status": "unofficial community-made templates",
+  "referenceVideo": "https://www.youtube.com/watch?v=8lT_Ab_7u4Y",
+  "sourceNote": "Appearance cues inspired by the supplied video stills. Not an official character bible or permission grant.",
+  "base": "A cinematic photorealistic fan-art interpretation inspired by the black-hooded masked performer visible in the EMPTY BED music video. A black fabric hood and face covering conceal most of the face; expressive eyes remain visible. Dramatic low-key lighting, authentic skin texture around the eyes, restrained color, subtle film grain, realistic photographic composition. Do not invent an official Cinek logo or imply artist approval.",
+  "negative": "No visible full face, no unverified facial traits, no extra eyes, no text, no logos, no watermarks, no cartoon styling unless explicitly requested.",
+  "presets": {
+    "portrait": {
+      "label": "Eyes / Portrait",
+      "scene": "Extreme close-up of the eyes looking straight into the lens, soft cold-blue catchlights, nearly black background, intense yet quiet mood.",
+      "motion": "Very slow cinematic push-in toward the eyes, slight natural head movement, steady gaze, minimal atmospheric haze."
+    },
+    "rooftop": {
+      "label": "Rooftop / Night",
+      "scene": "Masked performer on a rain-soaked city rooftop at midnight, blurred skyline, distant neon and reflective puddles, medium close-up.",
+      "motion": "Slow lateral camera drift through rooftop rain, gentle fabric movement in wind, atmospheric city bokeh."
+    },
+    "studio": {
+      "label": "Music Studio",
+      "scene": "Masked performer in a dim recording studio, backlit microphone, analog mixer lights, deep shadows and warm tungsten rim lighting.",
+      "motion": "Slow dolly around microphone, subtle head nod, warm equipment lights flickering softly."
+    },
+    "performance": {
+      "label": "Live Performance",
+      "scene": "Masked performer in silhouette on a dark stage, soft blue backlights, cinematic haze and distant audience lights.",
+      "motion": "Slow tracking shot across stage, soft haze drifting, subtle stage-light changes."
+    }
+  },
+  "rights": "Check permissions before commercial use, token promotion, video still reuse, or voice/likeness replication."
+}
