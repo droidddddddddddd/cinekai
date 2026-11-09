@@ -1,0 +1,19 @@
+{
+  "project": "CINEK",
+  "type": "independent fan-made artist catalogue",
+  "endpoints": {
+    "catalogue": "/catalogue.json",
+    "prompts": "/prompts.json",
+    "llms": "/llms.txt"
+  },
+  "mcp": {
+    "available": false
+  },
+  "generator": {
+    "available": false
+  },
+  "officialArtistHub": "https://linktr.ee/noahcinek",
+  "films": "/films.json",
+  "looks": "/looks.json",
+  "wiki": "/wiki.html"
+}
