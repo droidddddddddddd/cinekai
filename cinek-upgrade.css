@@ -1,0 +1,24 @@
+/* CINEK immersive refinement — load after styles.css */
+.intro-image,.world-photo,.film-bg,.artist-photo,.outro-photo{transform:none;image-rendering:auto}
+.intro-image{animation:none;background-position:center 38%}
+.intro-center{width:min(92%,1080px);top:54%;display:flex;flex-direction:column;align-items:center;gap:12px}
+.intro-center .hero-title{font-size:clamp(66px,14vw,208px);letter-spacing:.1em;text-indent:.1em;line-height:.95;text-shadow:0 8px 36px #000b}
+.cinek-hero-description{max-width:780px;margin:8px auto 0;font-size:clamp(14px,1.65vw,20px);line-height:1.6;color:#f9eef6;text-shadow:0 2px 15px #000,0 4px 28px #000}
+.cinek-hero-description strong{color:#ff9dcc;font-weight:700}
+.cinek-hero-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:12px}
+.cinek-hero-actions a{border:1px solid #ffffff80;padding:13px 18px;font-size:11px;letter-spacing:.12em;font-weight:700;background:#08080b88;backdrop-filter:blur(8px);transition:background .2s}
+.cinek-hero-actions a:first-child{background:#f15ba5;border-color:#f15ba5;color:#160712}
+.cinek-hero-actions a:hover{background:#f15ba5;color:#160712}
+.cinek-about{position:relative;padding:clamp(90px,10vw,160px) clamp(22px,7vw,110px);background:radial-gradient(circle at 80% 30%,#53112c55,transparent 45%),#0b090e}
+.cinek-about-inner{max-width:1250px;margin:auto;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(250px,.9fr);gap:clamp(35px,7vw,110px);align-items:center}
+.cinek-about h2{font-size:clamp(50px,8vw,116px);line-height:.98;letter-spacing:-.07em;margin:20px 0 35px}
+.cinek-about h2 em{font-style:normal;color:#f15ba5}
+.cinek-about p:not(.overline){font-size:clamp(15px,1.4vw,19px);line-height:1.8;color:#ded4dd;max-width:680px}
+.cinek-about-portrait{width:100%;max-height:700px;object-fit:contain;object-position:center;background:#100e13}
+.cinek-about-caption{font-size:10px;color:#bbb;letter-spacing:.1em;margin-top:12px}
+.cinek-about-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:30px}
+.cinek-about-links a{border-bottom:1px solid #f15ba5;padding-bottom:9px;font-size:12px;letter-spacing:.12em}
+img{image-rendering:auto}
+@media(max-width:800px){.cinek-about-inner{grid-template-columns:1fr}.cinek-about-portrait{max-height:500px}.intro-center{top:51%}.cinek-hero-description{max-width:520px}.intro-image{background-position:center 36%}.hero-foot{font-size:8px}.cinek-hero-actions a{padding:12px 14px}}
+@media(max-width:480px){.intro-center{width:94%;top:49%;gap:10px}.intro-center .hero-title{font-size:clamp(62px,19vw,95px)}.cinek-hero-description{font-size:14px;line-height:1.55}.cinek-hero-actions{gap:8px}.cinek-hero-actions a{font-size:9px;letter-spacing:.06em}.intro-vignette{background:linear-gradient(180deg,#0009 0%,#0004 24%,#0009 80%,#08080b 100%)}.cinek-about{padding-top:75px;padding-bottom:85px}}
+@media(prefers-reduced-motion:reduce){.intro-image{animation:none!important}.cinek-hero-actions a{transition:none}}
