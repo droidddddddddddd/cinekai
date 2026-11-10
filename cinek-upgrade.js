@@ -8,7 +8,7 @@
       var oldSub=intro.querySelector('.hero-sub');if(oldSub)oldSub.textContent='THE ARTIST · THE MUSIC · THE MASK';
       var description=make('p','cinek-hero-description','The artist behind <strong>EMPTY BED</strong>, <strong>OUR SONG</strong> and <strong>REMEDY</strong>. Explore the music, the films, and the masked visual world of CINEK. <span class="hero-fan-note">Unofficial fan project — not affiliated with or endorsed by Cinek (yet). We&rsquo;d love the artist&rsquo;s blessing.</span>');
       var actions=make('div','cinek-hero-actions');
-      [['WHO IS CINEK?','#who-is-cinek'],['THE WIKI','/wiki.html'],['THE FILMS','/films.html']].forEach(function(pair){var a=make('a','',pair[0]);a.href=pair[1];actions.appendChild(a)});
+      [['WHO IS CINEK?','#who-is-cinek'],['THE WIKI','/wiki.html'],['THE FILMS','/films.html'],['$CINEK','#token']].forEach(function(pair){var a=make('a','',pair[0]);a.href=pair[1];actions.appendChild(a)});
       var original=intro.querySelector('.hero-link');
       if(original){original.insertAdjacentElement('beforebegin',description);original.insertAdjacentElement('beforebegin',actions);original.style.display='none'}else{intro.append(description,actions)}
     }

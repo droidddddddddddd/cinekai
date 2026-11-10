@@ -206,12 +206,23 @@
     }
   ],
   "token": {
-    "status": "coming-soon",
+    "status": "live",
     "ticker": "$CINEK",
-    "address": null,
-    "buyUrl": null,
-    "headline": "$CINEK — coming soon",
-    "note": "Community token planned for this unofficial fan project. No contract address yet. Not affiliated with or endorsed by the artist (yet). We'd love Cinek's blessing."
+    "name": "CINEK",
+    "address": "GVryQWB4D3FLWPtqEfA54N6UrMn4vZLKAPBiasvipump",
+    "decimals": 6,
+    "venue": "pump.fun",
+    "platform": "pump.fun",
+    "poolId": "3UvMaUw5ENuX8Y4epwwWRPpXnVjqU83uLjapBdLodXsY",
+    "buyUrl": "https://pump.fun/coin/GVryQWB4D3FLWPtqEfA54N6UrMn4vZLKAPBiasvipump",
+    "jupiterUrl": "https://jup.ag/swap/SOL-GVryQWB4D3FLWPtqEfA54N6UrMn4vZLKAPBiasvipump",
+    "dexscreenerUrl": "https://dexscreener.com/solana/GVryQWB4D3FLWPtqEfA54N6UrMn4vZLKAPBiasvipump",
+    "dexscreenerPairUrl": "https://dexscreener.com/solana/3uvmauw5enux8y4epwwwrppxnvjqu83uljapbdlodxsy",
+    "solscanUrl": "https://solscan.io/token/GVryQWB4D3FLWPtqEfA54N6UrMn4vZLKAPBiasvipump",
+    "headline": "$CINEK — live",
+    "note": "Community token for this unofficial fan project. Unofficial fan project — not affiliated with or endorsed by Cinek (yet). We'd love the artist's blessing. Not financial advice.",
+    "disclaimer": "Unofficial fan project — not affiliated with or endorsed by Cinek (yet). We'd love the artist's blessing.",
+    "launchedAt": "2026-11-10T18:22:04Z"
   },
   "project": {
     "name": "CINEK Universe (unofficial fan project)",
