@@ -4,10 +4,10 @@
   "officialHub": "https://linktr.ee/noahcinek",
   "socials": [
     {
-      "name": "X \u00b7 @CINEKonSol (community / project)",
+      "name": "X · @CINEKonSol (community / project)",
       "url": "https://x.com/CINEKonSol",
       "role": "project",
-      "note": "Unofficial fan project account \u2014 not the artist"
+      "note": "Unofficial fan project account — not the artist"
     },
     {
       "name": "TikTok",
@@ -54,7 +54,7 @@
     },
     {
       "title": "EMPTY BED",
-      "subtitle": "FR\u00d6KEN SNUSK \u00d7 Rasmus Gozzi \u00d7 Cinek",
+      "subtitle": "FRÖKEN SNUSK × Rasmus Gozzi × Cinek",
       "date": "2026-10-09",
       "platform": "Apple Music",
       "url": "https://music.apple.com/us/album/empty-bed-single/6817671575",
@@ -71,7 +71,7 @@
     },
     {
       "title": "Floating",
-      "subtitle": "Genom V\u00e4rldar \u2014 English Version",
+      "subtitle": "Genom Världar — English Version",
       "date": "2026-09-11",
       "platform": "Qobuz",
       "url": "https://www.qobuz.com/gb-en/album/floating-cinek/et6gru9oymm80",
@@ -99,21 +99,21 @@
       "type": "single"
     },
     {
-      "title": "Genom V\u00e4rldar (Akustisk Version)",
+      "title": "Genom Världar (Akustisk Version)",
       "date": "2026-07-03",
       "platform": "Apple Music",
       "url": "https://music.apple.com/us/album/genom-v%C3%A4rldar-akustisk-version/6786540715?i=6786540716",
       "type": "single"
     },
     {
-      "title": "Framf\u00f6r Mig",
+      "title": "Framför Mig",
       "date": "2026-06-19",
       "platform": "Apple Music",
       "url": "https://music.apple.com/us/album/framf%C3%B6r-mig/6779559958?i=6779559959",
       "type": "single"
     },
     {
-      "title": "Genom V\u00e4rldar",
+      "title": "Genom Världar",
       "date": "2026-06-05",
       "platform": "Qobuz",
       "url": "https://www.qobuz.com/gb-en/album/genom-varldar-cinek/e4sgpzsmw3d5y",
@@ -155,7 +155,7 @@
       "type": "single"
     },
     {
-      "title": "G\u00e5r S\u00f6nder",
+      "title": "Går Sönder",
       "date": "2026-01-23",
       "platform": "Apple Music",
       "url": "https://music.apple.com/us/album/g%C3%A5r-s%C3%B6nder-single/1871380890",
@@ -197,7 +197,7 @@
     },
     {
       "title": "EMPTY BED",
-      "subtitle": "FR\u00d6KEN SNUSK \u00d7 Rasmus Gozzi \u00d7 Cinek \u2014 Music Video",
+      "subtitle": "FRÖKEN SNUSK × Rasmus Gozzi × Cinek — Music Video",
       "date": "2026-10-08",
       "url": "https://www.youtube.com/watch?v=8lT_Ab_7u4Y",
       "youtubeId": "8lT_Ab_7u4Y",
@@ -206,30 +206,18 @@
     }
   ],
   "token": {
-    "status": "live",
+    "status": "coming-soon",
     "ticker": "$CINEK",
-    "name": "CINEK",
-    "address": "Fair3ZfBmmP2Bg2WFUMaRqK6Qunp7E2RKK5qYxHHWkZJ",
-    "decimals": 6,
-    "venue": "raydium-launchlab",
-    "platform": "launchfair.fun",
-    "poolId": "3oExwGP7rCCQnVnjhscToZcoSWoVnYr5vu2uvwoy1ghY",
-    "buyUrl": "https://launchfair.fun/coin/Fair3ZfBmmP2Bg2WFUMaRqK6Qunp7E2RKK5qYxHHWkZJ",
-    "jupiterUrl": "https://jup.ag/swap/SOL-Fair3ZfBmmP2Bg2WFUMaRqK6Qunp7E2RKK5qYxHHWkZJ",
-    "raydiumUrl": "https://raydium.io/launchpad/token/?mint=Fair3ZfBmmP2Bg2WFUMaRqK6Qunp7E2RKK5qYxHHWkZJ",
-    "dexscreenerUrl": "https://dexscreener.com/solana/Fair3ZfBmmP2Bg2WFUMaRqK6Qunp7E2RKK5qYxHHWkZJ",
-    "dexscreenerPairUrl": "https://dexscreener.com/solana/3oExwGP7rCCQnVnjhscToZcoSWoVnYr5vu2uvwoy1ghY",
-    "solscanUrl": "https://solscan.io/token/Fair3ZfBmmP2Bg2WFUMaRqK6Qunp7E2RKK5qYxHHWkZJ",
-    "headline": "$CINEK \u2014 live",
-    "note": "Community token for this unofficial fan project. Unofficial fan project \u2014 not affiliated with or endorsed by Cinek (yet). We'd love the artist's blessing. Not financial advice.",
-    "disclaimer": "Unofficial fan project \u2014 not affiliated with or endorsed by Cinek (yet). We'd love the artist's blessing.",
-    "launchedAt": "2026-11-09T21:51:17Z"
+    "address": null,
+    "buyUrl": null,
+    "headline": "$CINEK — coming soon",
+    "note": "Community token planned for this unofficial fan project. No contract address yet. Not affiliated with or endorsed by the artist (yet). We'd love Cinek's blessing."
   },
   "project": {
     "name": "CINEK Universe (unofficial fan project)",
     "x": "https://x.com/CINEKonSol",
     "xHandle": "@CINEKonSol",
     "site": "https://cinek.onrender.com/",
-    "disclaimer": "Unofficial fan project \u2014 not affiliated with or endorsed by Cinek (yet). We'd love the artist's blessing."
+    "disclaimer": "Unofficial fan project — not affiliated with or endorsed by Cinek (yet). We'd love the artist's blessing."
   }
 }

@@ -12,39 +12,6 @@ document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>{
   $('#menuBtn').setAttribute('aria-expanded','false');
 }));
 
-
-// Copy CA + hydrate live token UI from catalogue when present
-function copyText(text, statusEl){
-  const done = ()=>{
-    if(statusEl){
-      statusEl.textContent = 'Copied';
-      setTimeout(()=>{ statusEl.textContent = ''; }, 1800);
-    }
-  };
-  if(navigator.clipboard && navigator.clipboard.writeText){
-    navigator.clipboard.writeText(text).then(done).catch(()=>{
-      const ta=document.createElement('textarea');
-      ta.value=text; document.body.appendChild(ta); ta.select();
-      try{ document.execCommand('copy'); done(); }catch(e){}
-      ta.remove();
-    });
-  }else{
-    const ta=document.createElement('textarea');
-    ta.value=text; document.body.appendChild(ta); ta.select();
-    try{ document.execCommand('copy'); done(); }catch(e){}
-    ta.remove();
-  }
-}
-document.querySelectorAll('[data-ca]').forEach(el=>{
-  if(el.tagName === 'BUTTON' || el.classList.contains('hero-token-copy') || el.classList.contains('token-copy-btn')){
-    el.addEventListener('click', ()=>{
-      const ca = el.getAttribute('data-ca') || '';
-      const status = document.getElementById('copyCAStatus');
-      copyText(ca, status);
-    });
-  }
-});
-
 const posterFallback={
   Vn_YildjGLw:'/assets/posters/our-song.webp',
   '0b5FTsHPU8Q':'/assets/posters/remedy.webp',
@@ -107,25 +74,10 @@ fetch('/catalogue.json').then(r=>{
     </a>`).join('');
   }
 
-  // Live token fill from catalogue
-  if(data.token){
-    const tokenStatus=$('#tokenStatus');
-    if(tokenStatus){
-      const st=String(data.token.status||'').toLowerCase();
-      tokenStatus.textContent = st==='live' ? 'Live' : (data.token.headline||data.token.status||'Coming soon');
-    }
-    if(data.token.address){
-      const caEl=$('#tokenCA');
-      if(caEl){
-        caEl.textContent=data.token.address;
-        caEl.setAttribute('data-ca', data.token.address);
-      }
-      document.querySelectorAll('[data-ca]').forEach(el=>{
-        if(el.tagName==='BUTTON' || el.classList.contains('hero-token-copy') || el.classList.contains('token-copy-btn')){
-          el.setAttribute('data-ca', data.token.address);
-        }
-      });
-    }
+  // Optional token status fill if elements exist
+  const tokenStatus=$('#tokenStatus');
+  if(tokenStatus && data.token){
+    tokenStatus.textContent=data.token.headline||data.token.status||'Coming soon';
   }
 }).catch(e=>{
   console.error(e);
